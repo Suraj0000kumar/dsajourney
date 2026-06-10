@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Day1 
 {
  public static void main(String args[]) 
@@ -7,9 +9,8 @@ class Day1
    
    for(int i=0;i<=10;i++)
     {
-      System.out.println("N * i = "+N*i);
+      System.out.println(N+" x "+ i+" = "+(N*i));
     }
    sc.close();
   }
-}
-  
+}		 
