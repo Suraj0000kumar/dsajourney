@@ -9,7 +9,7 @@ class Day1
    
    for(int i=0;i<=10;i++)
     {
-      System.out.println(N+" x "+ i+" = "+(N*i));
+      System.out.println(N+" *  "+ i+" = "+(N*i));
     }
    sc.close();
   }
